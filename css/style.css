@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Goblin+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=KoHo&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=KoHo&family=Lato:wght@700&family=Roboto:wght@500&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* font-family: 'KoHo', sans-serif; */
+/* font-family: 'Goblin One', cursive; */
+/* font-family: 'Architects Daughter', cursive; */
+/* font-family: 'KoHo', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-class {
+  background-color: rgb(233, 233, 233);
+  color: black;
+  padding: 1px;
+  margin: 10px;
+}
+.nav-bar {
+  display: inline;
+  position: relative;
+}
+
+.nav-bar-element {
+  padding: 0;
+}
+
+.nav-bar-mainlogo {
+  display: inline-block;
+  position: relative;
+  padding: 1px;
+  left: 3vw;
+}
+#title-name {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "KoHo", sans-serif;
+  cursor: pointer;
+}
+#title-name a {
+  overflow: hidden;
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+}
+#title-name a:hover{
+  font-weight: bolder;
+}
+.nav-bar-button {
+  display: inline-block;
+  position: relative;
+  left: 4vw;
+  word-spacing: 25px;
+}
+.nav-bar-button a {
+  overflow: auto;
+  font-weight:lighter;
+  color: rgb(1, 114, 189);
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  background-color: transparent;
+}
+.nav-bar-button a:hover{
+ font-weight:bolder;
+}
+.nav-bar-search-bar {
+  position: relative;
+  display: inline;
+  left: 10vw;
+}
+.nav-bar-search-bar input {
+  border: none;
+  outline: none;
+  border-color: transparent;
+  /* box-sizing: ; */
+  width: 40%;
+  padding: 8px;
+  padding-left: 10px;
+  border-radius: 30px;
+  cursor: text;
+}
+.nav-bar-search-bar input::placeholder {
+  color: rgb(98, 192, 255);
+  font-style: normal;
+  font-family: "Courier New", Courier, monospace;
+}
+.nav-bar-sing-up {
+  display: inline;
+  position: relative;
+  left: 17vw;
+}
+.nav-bar-sing-up button {
+  overflow: hidden;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(0, 153, 255);
+  font-weight: bold;
+}
+.main-body-image-cont {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  position: relative;
+  text-align: center;
+}
+.main-body-image {
+  display: block;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+.main-body-image img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(1);
+}
+.main-body-image img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+.main-body-image-main-text {
+  position: absolute;
+  display: block;
+  padding: 2vh;
+  padding-left: 5vh;
+  margin-left: 10vh;
+  top: 5vw;
+  background-color: rgb(237, 241, 218);
+}
+.main-body-image-text {
+  color: rgb(240, 65, 65);
+  text-align: left;
+  font-weight: bolder;
+  font-size: 6vh;
+  font-family: "Roboto", sans-serif;
+  /* text-decoration: underline rgb(202, 243, 255); */
+}
+.main-body-image-small-cart {
+  padding: 2vh;
+  padding-top: 2vh;
+}
+.main-body-image-small-cart hr {
+  width: 10vw;
+}
+.main-flex-container {
+  padding-left: 2rem;
+  /* display: inline; */
+  margin-left: 1rem;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  max-height: 500px;
+  max-height: 50vh;
+}
+.main-flex-gallary-content {
+  display: inline;
+  position: relative;
+  padding: 1vh;
+  /* overflow: ; */
+}
+.main-flex-gallary-content p {
+  color: rgb(46, 45, 45);
+  font-size: 2vh;
+  /* background-color: rgb(174, 225, 255); */
+  border-radius: 10px;
+}
+.main-flex-gallary-heading {
+  font-family: "KoHo", sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  left: 65px;
+  font-weight: bold;
+  color: rgb(126, 126, 126);
+}
+.main-flex-gallary-content img {
+  padding-top: 20px;
+}
